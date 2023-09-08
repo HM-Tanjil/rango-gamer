@@ -144,7 +144,7 @@ body {
   background-color: #ff42a5;
   padding: 14px 20px;
   border-radius: 40px;
-  color: #fff;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 500;
   text-transform: uppercase;
@@ -274,7 +274,7 @@ body {
 }
 .play__btn i {
   font-size: 48px;
-  color: #fff;
+  color: #ffffff;
 }
 .play__btn h6 {
   margin-top: 10px;
@@ -358,7 +358,7 @@ body {
 }
 .career__text {
   flex: 1;
-  color: #fff;
+  color: #ffffff;
   padding-right: 20px;
 }
 .career__info {
@@ -374,7 +374,7 @@ body {
 
 .career__btn {
   color: #ff42a5;
-  background: #fff;
+  background: #ffffff;
 }
 .career__img {
   flex: 1;
@@ -402,7 +402,7 @@ body {
 .category__item {
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 8px 8px;
   border-radius: 50px;
   border: 1px solid transparent;
@@ -428,3 +428,49 @@ body {
   font-size: 20px;
 }
 /* category end */
+
+/* footer start */
+#footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: rgba(11, 2, 35, 1);
+}
+.footer__content {
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+.footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+.footer__nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  transition: 0.2s ease-in-out;
+}
+.footer__social a {
+  font-size: 40px;
+}
+.footer__nav a:hover {
+  color: #ff42a5;
+  transition: 0.2s ease-in-out;
+}
+.footer__logo h3 {
+  color: #ffffff;
+}
+.footer__policy a,
+.footer__text {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+}
+/* footer end */

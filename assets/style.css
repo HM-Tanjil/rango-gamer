@@ -282,16 +282,7 @@ body {
   font-weight: 700;
   color: rgba(255, 66, 165, 1);
 }
-/* .vidio__thumb::after {
-  content: "";
-  position: absolute;
-  border-radius: 12px;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.6);
-} */
+
 .vidio__item p {
   margin-top: 10px;
   font-size: 20px;
@@ -299,3 +290,141 @@ body {
   color: #534c64;
 }
 /* vidio end */
+
+/* play banner start */
+#play__banner {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.play__instant {
+  display: flex;
+  align-items: center;
+}
+.play__text {
+  flex: 1;
+  text-align: right;
+  margin: 0 30px;
+  color: #0b0223;
+}
+.play__text span {
+  background: linear-gradient(
+    180deg,
+    rgba(249, 72, 178, 1) 0%,
+    rgba(135, 88, 241, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play__img {
+  flex: 1;
+}
+.play__img img {
+  width: 100%;
+}
+.play__games {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+.play__games .play__text {
+  text-align: left;
+}
+/* play banner end */
+
+/* career start */
+#career {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ff42a5;
+  position: relative;
+  z-index: 1;
+}
+#career::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url(../assets/images/Vector\ 2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: left;
+}
+.career__content {
+  display: flex;
+  align-items: center;
+}
+.career__text {
+  flex: 1;
+  color: #fff;
+  padding-right: 20px;
+}
+.career__info {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.career__info__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.career__btn {
+  color: #ff42a5;
+  background: #fff;
+}
+.career__img {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.career__img img {
+  width: 100%;
+}
+/* career end */
+
+/* category start */
+#category {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: rgba(255, 66, 165, 0.03);
+}
+.category__content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.category__item {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 8px 8px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  color: #0b0223;
+  transition: 0.2s ease-in;
+}
+
+.category__item:hover {
+  border: 1px solid #ff42a5;
+  color: #ff42a5;
+  transition: 0.2s ease-out;
+}
+.category__img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+.category__img img {
+  width: 100%;
+  height: auto;
+}
+.category__name {
+  font-size: 20px;
+}
+/* category end */
